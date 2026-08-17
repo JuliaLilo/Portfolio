@@ -42,3 +42,45 @@ body{
     background-color: #F7F7F2;
 }
 
+h2{
+    font-family: 'Manrope', sans-serif;
+}
+
+h1{
+    font-family: 'Manrope', sans-serif;
+}
+
+.texto{
+    left: 80px;
+    position: absolute;
+}
+
+.ola{
+    font-size: 16px;
+    color: #7CB342;
+    font-weight: bold;
+    top: 220px;
+    letter-spacing: 8%;
+}
+
+.desc{
+    font-size: 16px;
+    color: #7CB342;
+    font-weight: 500;
+    top: 425px;
+    letter-spacing: 4%;
+}
+
+.eu{
+    color: #737373;
+    font-weight: 500;
+    font-size: 32px;
+    top: 275px;
+}
+
+.nome{
+   color: #171717;
+   font-size: 80px; 
+   top: 315px;
+}
+
