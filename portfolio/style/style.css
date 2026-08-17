@@ -1,0 +1,44 @@
+.cabecalho{
+    font-family: 'Manrope', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.desktop{
+    color: #171717;
+    position: absolute;
+    left: 80px;  
+    top: 38px;   
+    margin: 0;  
+}
+
+.botao{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    text-decoration: none;
+    color: #171717;
+    position: absolute;
+    top: 34px;
+}
+
+.sobre{
+    left: 922px;
+}
+
+.projetos{
+    left: 1000px;
+}
+
+.dados{
+    left: 1117px;
+}
+
+.contato{
+    left: 1190px;
+}
+ 
+body{
+    background-color: #F7F7F2;
+}
+
