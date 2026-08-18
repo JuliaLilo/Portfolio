@@ -1,42 +1,86 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Júlia Lilo</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="style/style.css">
-    </head>
-    <body>
-        <div>
-            <h1 class="cabecalho desktop">JÚLIA LILO</h1>
-            <a href="https://google.com" class="botao sobre">SOBRE</a>
-            <a href="https://google.com" class="botao projetos">PROJETOS</a>
-            <a href="https://google.com" class="botao dados">DADOS</a>
-            <a href="https://google.com" class="botao contato">CONTATO</a>
-        </div>
 
-        <div class="textogrande">
-            <h2 class="texto ola">OLÁ, SEJA BEM-VINDO!</h2>
-            <h2 class="texto eu">Eu Sou</h2>
-            <h1 class="texto nome">Júlia Lilo</h1>
-            <h2 class="texto desc">DEV | ESTATÍSTICA | DADOS</h2>
-        </div>
-        <button type="button" class="botaotrabalho">CONHEÇA MEU TRABALHO →</button>
-        <div class="grafico" aria-label="Gráfico decorativo de regressão linear">
-            <div class="eixo eixo-y"></div>
-            <div class="eixo eixo-x"></div>
-            <div class="linha-regressao"></div>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Júlia Lilo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+</head>
 
-            <span class="ponto ponto-1"></span>
-            <span class="ponto ponto-2"></span>
-            <span class="ponto ponto-3"></span>
-            <span class="ponto ponto-4"></span>
-            <span class="ponto ponto-5"></span>
-            <span class="ponto ponto-6"></span>
-            <span class="ponto ponto-7"></span>
-        </div>
-    </body>
+<body>
+    <main>
+        <section id="inicio" class="home">
+            <header>
+                <h1 class="cabecalho desktop">JÚLIA LILO</h1>
+
+                <nav aria-label="Navegação principal">
+                    <a href="#sobre" class="botao sobre">SOBRE</a>
+                    <a href="#projetos" class="botao projetos">PROJETOS</a>
+                    <a href="#dados" class="botao dados">DADOS</a>
+                    <a href="#contato" class="botao contato">CONTATO</a>
+                </nav>
+            </header>
+
+            <div class="textogrande">
+                <h2 class="texto ola">OLÁ, SEJA BEM-VINDO!</h2>
+                <h2 class="texto eu">Eu Sou</h2>
+                <h1 class="texto nome">Júlia Lilo</h1>
+                <h2 class="texto desc">DEV | ESTATÍSTICA | DADOS</h2>
+            </div>
+
+            <a href="#projetos" class="botao-trabalho">CONHEÇA MEU TRABALHO →</a>
+
+            <div class="grafico" aria-label="Gráfico decorativo de regressão linear">
+                <div class="eixo eixo-y"></div>
+                <div class="eixo eixo-x"></div>
+                <div class="linha-regressao"></div>
+
+                <span class="ponto ponto-1"></span>
+                <span class="ponto ponto-2"></span>
+                <span class="ponto ponto-3"></span>
+                <span class="ponto ponto-4"></span>
+                <span class="ponto ponto-5"></span>
+                <span class="ponto ponto-6"></span>
+                <span class="ponto ponto-7"></span>
+            </div>
+        </section>
+
+        <section id="sobre" class="secao-sobre">
+            <div class="sobre-conteudo">
+                <p class="secao-indice">01 / SOBRE</p>
+
+                <div class="sobre-apresentacao">
+                    <h2 class="sobre-titulo">
+                        Desenvolvimento de<br>
+                        Sistemas e Estatística
+                    </h2>
+
+                    <p class="sobre-texto">
+                        Sou técnica em Desenvolvimento de Sistemas pelo IFSul e estudante de Estatística na UFRGS. Atuei
+                        como Auxiliar de TI, desenvolvendo e mantendo soluções low-code, trabalhando com PostgreSQL e
+                        prestando suporte a usuários internos.
+                    </p>
+                </div>
+
+                <div class="competencias">
+                    <p class="competencias-titulo">COMPETÊNCIAS</p>
+
+                    <ul class="competencias-lista">
+                        <li>R</li>
+                        <li>SQL + PostgreSQL</li>
+                        <li>Java + Spring Boot</li>
+                        <li>Android</li>
+                        <li>HTML + CSS</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
 </html>
