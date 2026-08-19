@@ -26,6 +26,8 @@ textarea {
     position: relative;
     width: 100%;
     min-height: 1024px;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 /* CABEÇALHO */
@@ -278,4 +280,180 @@ textarea {
 .competencias-lista li {
     color: #f5f5f0;
     font-size: 16px;
+}
+
+/* SEÇÃO PROJETOS */
+
+.secao-projetos {
+    min-height: 1024px;
+    padding: 100px 80px;
+    background-color: #f5f5f0;
+    color: #171717;
+}
+
+.projetos-conteudo {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.projetos-titulo {
+    margin: 65px 0 80px;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+.lista-projetos {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 64px;
+}
+
+.projeto-card {
+    overflow: hidden;
+    border: 1px solid #deded7;
+    background-color: #f7f7f2;
+}
+
+.projeto-visual {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 330px;
+}
+
+.bloco-codefeel {
+    position: relative;
+    width: 105px;
+    height: 130px;
+    border: 1px solid #7cb342;
+    border-radius: 8px;
+}
+
+.bloco-codefeel:nth-child(even) {
+    transform: translateY(-22px);
+}
+
+.bloco-codefeel:nth-child(odd) {
+    transform: translateY(22px);
+}
+
+.bloco-codefeel span {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #7cb342;
+}
+
+.bloco-codefeel span:nth-child(1) {
+    top: 28px;
+    left: 43px;
+}
+
+.bloco-codefeel span:nth-child(2) {
+    top: 28px;
+    left: 58px;
+}
+
+.bloco-codefeel span:nth-child(3) {
+    top: 46px;
+    left: 43px;
+}
+
+.spotify-visual {
+    background-color: #e3f1d7;
+}
+
+.grafico-barras {
+    display: flex;
+    align-items: flex-end;
+    gap: 18px;
+    height: 160px;
+    padding-bottom: 1px;
+    border-bottom: 1px solid rgb(124 179 66 / 35%);
+}
+
+.grafico-barras span {
+    width: 28px;
+    border-radius: 4px 4px 0 0;
+    background-color: #7cb342;
+}
+
+.projeto-informacoes{
+    position: relative;
+    min-height: 270px;
+    padding: 45px 32px 30px;
+}
+
+.projeto-categoria {
+    margin: 0 0 12px;
+    color: #7cb342;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+}
+
+.categoria-escura{
+    color: #171717;
+}
+
+.projeto-nome{
+    margin: 0 0 8px;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.15;
+    letter-spacing: 0.05em;
+}
+
+.projeto-descricao {
+    max-width: 500px;
+    margin: 0;
+    color: #737373;
+    font-size: 15px;
+    line-height: 1.55;
+}
+
+.projeto-tecnologias {
+    position: absolute;
+    bottom: 30px;
+    left: 32px;
+    margin: 0;
+    color: #7cb342;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+}
+
+.projeto-link {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+    height: 100%;
+}
+
+.projeto-card {
+    height: 100%;
+    transition: transform 200ms ease box-shadow ease;
+    display: grid;
+    grid-template-rows: 330px 270px;
+    overflow: hidden;
+    border: 1px solid #deded7;
+    background-color: #f7f7f2;
+}
+
+.projeto-link:hover .projeto-card {
+    transform: translateY(-6px);
+    box-shadow: 0 16px 35px rgb(23 23 23 / 12%);
+}
+
+.projeto-link:focus-visible {
+    outline: 3px solid #7cb342;
+    outline-offset: 5px;
+}
+
+.codefeel-visual {
+    gap: 16px;
+    background-color: #171717;
 }
