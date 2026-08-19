@@ -641,3 +641,12 @@ textarea {
     font-weight: 700;
     letter-spacing: 0.04em;
 }
+
+.botao {
+    transition: color 180ms ease;
+}
+
+.botao:hover,
+.botao.ativo {
+    color: #7cb342;
+}
